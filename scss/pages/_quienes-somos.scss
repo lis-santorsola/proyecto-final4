@@ -1,0 +1,76 @@
+/* Intro who we are */
+.description {
+    p {
+        color: $gray;
+        text-align: center;
+        font-size: 1.2rem;
+        padding: 20px;
+        margin: 20px 200px;
+        @media (max-width: $screen_medium){
+            padding: 0;
+            margin: 20px 50px;
+        }
+    }
+}
+
+/* Trajectory */
+.trajectory {
+    margin-top: 80px;
+
+    h2 {
+        color: $darkGray;
+        text-align: center;
+        font-weight: bold;
+        font-size: 2.5rem;
+        padding: 10px 20px;
+    }
+
+    p {
+        color: $gray;
+        text-align: center;
+        font-size: 1.2rem;
+        padding: 0 20px;
+        margin: 50px 200px;
+        @media (max-width: $screen_medium){
+            padding: 0;
+            margin: 15px 50px;
+        }
+    }
+}
+
+/* Team */
+#team {
+	background: $light !important;
+	.card {
+		border: none;
+		background: $light;
+	}
+}
+
+section {
+	padding: 20px 0;
+	.staff {
+		text-align: center;
+        color: $darkGray;
+        font-size: 2.5rem;
+		margin-bottom: 50px;
+	}
+}
+
+.frontside {
+	position: relative;
+	margin-bottom: 30px;
+	.card {
+		min-height: 200px;
+		.card-title {
+			color: $primary !important;
+		}
+		.card-body {
+			img {
+				width: 120px;
+				height: 120px;
+				border-radius: 50%;
+			}
+		}
+	}
+}
